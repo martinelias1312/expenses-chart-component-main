@@ -1,0 +1,14 @@
+@import "variables";
+@import "general";
+
+/*
+ *	MAIN CONTENT
+ ------------------------------------------------------ */
+
+.balance-card {
+  background-color: $color-soft-red;
+}
+
+.spending-card {
+  background-color: $color-very-pale-orange;
+}

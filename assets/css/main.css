@@ -1,0 +1,66 @@
+/*
+ *	VARIABLES
+ ------------------------------------------------------ */
+/* Colors */
+/* Typography */
+/*
+ *	GENERAL
+ ------------------------------------------------------ */
+/* border-box */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.125em;
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(27deg, 66%, 92%);
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*
+ *	MAIN CONTENT
+ ------------------------------------------------------ */
+.balance-card {
+  background-color: hsl(10deg, 79%, 65%);
+}
+
+.spending-card {
+  background-color: hsl(33deg, 100%, 98%);
+}/*# sourceMappingURL=main.css.map */
