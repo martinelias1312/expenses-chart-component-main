@@ -24,33 +24,35 @@
     <main>
       <h1 class="sr-only">Expenses card</h1>
 
-      <div class="balance-card">
-        <p class="balance-text">
-          My balance
-          <span class="balance-sum">$921.48</span>
-        </p>
-        <img
-          src="./assets/images/logo.svg"
-          alt="decorative circles"
-          aria-hidden="true"
-        />
+      <div class="expenses-card">
+        <div class="balance-card">
+          <p class="balance-text">
+            My balance
+            <span class="balance-sum">$921.48</span>
+          </p>
+          <img
+            src="./assets/images/logo.svg"
+            alt="decorative circles"
+            aria-hidden="true"
+          />
+        </div>
+
+        <article class="spending-card">
+          <h2 class="spending-card-heading">Spending - Last 7 days</h2>
+          <div class="spending-graph">mon tue wed thu fri sat sun</div>
+
+          <footer class="spending-footer">
+            <p class="spending-footer-text">
+              Total this month
+              <span class="spending-sum">$478.33</span>
+            </p>
+            <p class="spending-month-sum">
+              +2.4%
+              <span class="spending-footer-text">from last month</span>
+            </p>
+          </footer>
+        </article>
       </div>
-
-      <article class="spending-card">
-        <h2 class="spending-card-heading">Spending - Last 7 days</h2>
-        <div class="spending-graph">mon tue wed thu fri sat sun</div>
-
-        <footer class="spending-footer">
-          <p class="spending-footer-text">
-            Total this month
-            <span class="spending-sum">$478.33</span>
-          </p>
-          <p class="spending-month-sum">
-            +2.4%
-            <span class="spending-footer-text">from last month</span>
-          </p>
-        </footer>
-      </article>
     </main>
 
     <footer>
