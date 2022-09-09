@@ -4,11 +4,26 @@
 /*
  *	MAIN CONTENT
  ------------------------------------------------------ */
-
-.balance-card {
-  background-color: $color-soft-red;
+.spending-card-heading, .spending-sum, .spending-month-sum {
+  color: $color-dark-brown;
 }
 
+ // Balance card
+.balance-card {
+  background-color: $color-soft-red;
+  color: $color-very-pale-orange;
+}
+
+// Spending card
 .spending-card {
-  background-color: $color-very-pale-orange;
+  background-color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

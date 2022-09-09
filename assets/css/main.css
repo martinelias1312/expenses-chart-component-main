@@ -26,6 +26,7 @@ body {
   font-size: 1.125em;
   font-family: "DM Sans", sans-serif;
   background-color: hsl(27deg, 66%, 92%);
+  color: hsl(28deg, 10%, 53%);
 }
 
 img {
@@ -57,10 +58,24 @@ ul {
 /*
  *	MAIN CONTENT
  ------------------------------------------------------ */
+.spending-card-heading, .spending-sum, .spending-month-sum {
+  color: hsl(25deg, 47%, 15%);
+}
+
 .balance-card {
   background-color: hsl(10deg, 79%, 65%);
+  color: hsl(33deg, 100%, 98%);
 }
 
 .spending-card {
-  background-color: hsl(33deg, 100%, 98%);
+  background-color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=main.css.map */
