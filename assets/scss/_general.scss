@@ -22,6 +22,10 @@ body {
   font-family: $font-family;
   background-color: $color-cream;
   color: $color-medium-brown;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
