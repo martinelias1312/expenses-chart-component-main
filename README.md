@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/expenses-chart-component-with-js-and-scss-PqOiJ0cKx8](https://www.frontendmentor.io/solutions/expenses-chart-component-with-js-and-scss-PqOiJ0cKx8)
 - Live Site URL: [https://expenses-chart-component-main-flame.vercel.app/](https://expenses-chart-component-main-flame.vercel.app/)
 
 ## My process
