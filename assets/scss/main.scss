@@ -56,8 +56,39 @@
 .spending-graph {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 0;
+  padding: 2rem 0 1.5rem;
   border-bottom: 2px solid $color-cream;
+
+  li {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 11%;
+  }
+}
+
+.day {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.bar {
+  background-color: $color-soft-red;
+  border-radius: 0.2rem;
+
+  &.bar:not(.today):hover {
+    cursor: pointer;
+    background-color: hsla(10, 79%, 65%, 0.5);
+  }
+}
+
+.today {
+  background-color: $color-cyan;
+
+  &:hover {
+    cursor: pointer;
+    background-color: hsla(186, 34%, 60%, 0.5);
+  }
 }
 
 .spending-footer {
