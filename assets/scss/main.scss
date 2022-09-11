@@ -56,13 +56,13 @@
 .spending-graph {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0 1.5rem;
+  align-items: flex-end;
+  padding: 2.5rem 0 1.5rem;
   border-bottom: 2px solid $color-cream;
 
   li {
-    display: flex;
-    flex-direction: column-reverse;
     width: 11%;
+    position: relative;
   }
 }
 
@@ -91,6 +91,25 @@
   }
 }
 
+.bar-amount {
+  display: none;
+  position: absolute;
+  top: -2.25rem;
+  background-color: $color-dark-brown;
+  width: fit-content;
+  padding: 0.4rem 0.3rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.show {
+  display: block;
+}
+
+// spending footer
 .spending-footer {
   margin-top: 1.5rem;
   display: flex;
@@ -124,6 +143,7 @@
   font-weight: 400;
 }
 
+// page footer
 .attribution {
   font-size: 11px;
   text-align: center;

@@ -111,13 +111,13 @@ ul {
 .spending-graph {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0 1.5rem;
+  align-items: flex-end;
+  padding: 2.5rem 0 1.5rem;
   border-bottom: 2px solid hsl(27deg, 66%, 92%);
 }
 .spending-graph li {
-  display: flex;
-  flex-direction: column-reverse;
   width: 11%;
+  position: relative;
 }
 
 .day {
@@ -141,6 +141,26 @@ ul {
 .today:hover {
   cursor: pointer;
   background-color: hsla(186deg, 34%, 60%, 0.5);
+}
+
+.bar-amount {
+  display: none;
+  position: absolute;
+  top: -2.25rem;
+  background-color: hsl(25deg, 47%, 15%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.4rem 0.3rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.show {
+  display: block;
 }
 
 .spending-footer {
