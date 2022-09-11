@@ -116,6 +116,9 @@ ul {
   border-bottom: 2px solid hsl(27deg, 66%, 92%);
 }
 .spending-graph li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 11%;
   position: relative;
 }
@@ -129,6 +132,7 @@ ul {
 .bar {
   background-color: hsl(10deg, 79%, 65%);
   border-radius: 0.2rem;
+  width: 100%;
 }
 .bar.bar:not(.today):hover {
   cursor: pointer;
