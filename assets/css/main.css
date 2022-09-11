@@ -27,6 +27,10 @@ body {
   font-family: "DM Sans", sans-serif;
   background-color: hsl(27deg, 66%, 92%);
   color: hsl(28deg, 10%, 53%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
@@ -58,17 +62,89 @@ ul {
 /*
  *	MAIN CONTENT
  ------------------------------------------------------ */
-.spending-card-heading, .spending-sum, .spending-month-sum {
-  color: hsl(25deg, 47%, 15%);
+.expenses-card {
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+.balance-card, .spending-card {
+  border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 
 .balance-card {
   background-color: hsl(10deg, 79%, 65%);
   color: hsl(33deg, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.balance-card img {
+  width: 4rem;
+}
+
+.balance-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.balance-sum {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .spending-card {
   background-color: white;
+}
+
+.spending-card-heading, .spending-sum, .spending-month-perc {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+}
+
+.spending-card-heading {
+  font-size: 1.6rem;
+}
+
+.spending-graph {
+  margin-top: 10rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid hsl(27deg, 66%, 92%);
+}
+
+.spending-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spending-month-total-text, .spending-month-perc {
+  display: flex;
+  flex-direction: column;
+}
+
+.spending-month-total-text {
+  gap: 0.5rem;
+}
+
+.spending-month-total-text, .spending-last-month-text {
+  font-size: 1rem;
+}
+
+.spending-sum {
+  font-size: 2rem;
+}
+
+.spending-month-perc {
+  text-align: right;
+  justify-content: end;
+}
+
+.spending-last-month-text {
+  color: hsl(28deg, 10%, 53%);
+  font-weight: 400;
 }
 
 .attribution {

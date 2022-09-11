@@ -4,19 +4,92 @@
 /*
  *	MAIN CONTENT
  ------------------------------------------------------ */
-.spending-card-heading, .spending-sum, .spending-month-sum {
-  color: $color-dark-brown;
+.expenses-card {
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+.balance-card, .spending-card {
+  border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 
  // Balance card
 .balance-card {
   background-color: $color-soft-red;
   color: $color-very-pale-orange;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  img {
+    width: 4rem;
+  }
+}
+
+.balance-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.balance-sum {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 // Spending card
 .spending-card {
   background-color: white;
+}
+
+.spending-card-heading, .spending-sum, .spending-month-perc {
+  color: $color-dark-brown;
+  font-weight: 700;
+}
+
+.spending-card-heading {
+  font-size: 1.6rem;
+}
+
+.spending-graph {
+  margin-top: 10rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid $color-cream;
+}
+
+.spending-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spending-month-total-text, .spending-month-perc {
+  display: flex;
+  flex-direction: column;
+}
+
+.spending-month-total-text {
+  gap: 0.5rem;
+}
+
+.spending-month-total-text, .spending-last-month-text {
+  font-size: 1rem;
+}
+
+.spending-sum {
+  font-size: 2rem;
+}
+
+.spending-month-perc {
+  text-align: right;
+  justify-content: end;
+}
+
+.spending-last-month-text {
+  color: $color-medium-brown;
+  font-weight: 400;
 }
 
 .attribution {
