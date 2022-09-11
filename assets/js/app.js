@@ -1,6 +1,6 @@
 "use strict";
 
-const url = "http://myjson.dit.upm.es/api/bins/564m";
+const url = "../data.json";
 const spendingGraph = document.querySelector(".spending-graph");
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const date = new Date();
